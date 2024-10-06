@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.register {
+  margin: 3vh auto;
+  width: 80vw;
+  height: 70vh;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(190, 187, 187, .6);
+  display: flex;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  z-index: 1;
+  margin-top: 75px;
+}
+
+.register-cover {
+  background-image: url('../images/img1.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.register-content {
+  width: 50%;
+  text-align: center;
+  background-image: url("../images/dqs.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+
+
+.title {
+  color: #3876BF;
+}
+
+.photo {
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: -0;
+  background-image: url("../images/tables-left-dec.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .register {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .register-cover {
+    display: none;
+  }
+
+  .register-content {
+    width: 100%;
+  }
+}
+
+.form-container, .form-container-connexion {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 65px;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #323940;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.input[type="file"] {
+  padding: 0;
+  margin-bottom: 0;
+}
+.compte{
+    margin-top: 10px;
+    
+    font-size: 1rem;
+    color:#111;
+    a{
+        color:#111;
+    }
+}
+.compte{
+    font-size: 1rem;
+    color:#111;
+   
+  }
+  .FormControlLabel{
+    margin-top: 10px;
+    margin-right: 330px;
+    font-size: 10px;
+  }
+  .button{
+    color:white;
+  }
